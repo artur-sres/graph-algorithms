@@ -2,7 +2,7 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-public class Interface {
+public class AppGUI {
 
     public static void iniciar(Grafo grafo) {
         String mensagemInicial = "Interface para o buscador de conexões utilizando o algoritmo de busca em largura (BFS).";
@@ -31,7 +31,7 @@ public class Interface {
                         List<String> resultado = new AlgoritmoBFS().findGrauAmizade(p1, p2, grafo);
 
                         if(resultado != null) {
-                            int grau = resultado.size() - 1; //Não deveria estar aqui
+                            int grau = resultado.size() - 1; 
                             String caminho = String.join(" -> ", resultado);
                             JOptionPane.showMessageDialog(null, "Grau de amizade entre " + p1 + " e " + p2 + " é igual a " + grau + ": " + caminho, "Resultado", JOptionPane.INFORMATION_MESSAGE);
                         } else {

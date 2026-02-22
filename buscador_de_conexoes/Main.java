@@ -14,7 +14,7 @@ public class Main {
         try {
             //Cria o grafo, importando os dados do arquivo CSV para o construtor e inicia a interface para o usuário
             Grafo grafo = new Grafo("buscador_de_conexoes/grafo.csv");
-            Interface.iniciar(grafo);
+            AppGUI.iniciar(grafo);
         } catch (Exception e) {
             e.printStackTrace();
         }
