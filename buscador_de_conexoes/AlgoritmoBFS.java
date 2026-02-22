@@ -13,6 +13,8 @@ public class AlgoritmoBFS {
             Fila Encadeada para armazenar os nós a serem visitados, pois os nós das extremidades são constantemente modificados.
             Map para armazenar os nós visitados e seus pais, pois é necessário acessar os pais para reconstruir o caminho encontrado.
             Lista para armazenar o resultado final do caminho encontrado.
+
+            A distância não foi utilizada por nao era conveniente para o problema
         */
         
         Map<String, HashSet<String>> listaAdjacencia = grafo.getListaAjacencia();
