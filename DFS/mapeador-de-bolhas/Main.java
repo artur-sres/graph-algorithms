@@ -2,7 +2,7 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){ 
         
         try {
             // Define o look and feel para o do sistema operacional atual 
