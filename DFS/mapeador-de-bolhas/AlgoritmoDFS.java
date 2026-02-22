@@ -17,27 +17,16 @@ public class AlgoritmoDFS {
                 bolhasEncontradas.add(new ArrayList<>(bolha));
             }
         }
-        if (bolhasEncontradas.size() > 1) {
-            return bolhasEncontradas;
-        } else {
-            return null;
-        }
+        return bolhasEncontradas;
     }
     
     private static void dfs(String node, Grafo grafo, LinkedList<String> bolha, HashSet<String> visitado) {
         visitado.add(node);
-        bolha.add(0, node);
+        bolha.add(node);
         for (String adjacente : grafo.getListaAjacencia().get(node)) {
             if (!visitado.contains(adjacente)) {
                 dfs(adjacente, grafo, bolha, visitado);
             }
         }
     }
-
-    @Override
-    public String toString() {
-
-        return null;
-    }
-
 }
