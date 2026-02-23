@@ -1,8 +1,8 @@
 # Algoritmos em Grafos
 
-Este repositório é um ambiente de estudos e testes dedicado à implementação prática de teoria dos grafoss em Java.
+Este repositório é um ambiente de estudos e testes dedicado à implementação prática de teoria dos grafos em Java.
 
-Em vez de ser único, este repositório funciona como uma coleção de mini-projetos independentes. Cada pasta contém o seu próprio contexto, a sua própria estrutura de Grafo e um caso de uso do mundo real para um algoritmo específico, que no geal são bem simples.
+Em vez de ser único, este repositório funciona como uma coleção de mini-projetos independentes. Cada pasta contém o seu próprio contexto, a sua própria estrutura de Grafo e um caso de uso do mundo real para um algoritmo específico, que no geral são bem simples.
 
 ### Algoritmos Implementados
 
