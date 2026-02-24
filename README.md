@@ -10,7 +10,7 @@ Até ao momento, contém:
 
 * **[BFS / Buscador de Conexões](./BFS/buscador_de_conexoes/):** Implementação de Busca em Largura (Breadth-First Search) para encontrar o menor caminho e o grau de separação entre dois nós.
 * **[DFS / Mapeador de Bolhas](./DFS/mapeador-de-bolhas/):** Implementação de Busca em Profundidade (Depth-First Search) para identificar componentes conexos e mapear "bolhas" isoladas dentro de uma rede.
-* **[Dijkstra / Buscador de Voos](./Dijkstra/buscador-de-voos/)** Implementação do Algoritmo de Dijkstra para encontrar a melhor rota possível de um ponto a outro.
+* **[Dijkstra / Buscador de Voos](./Dijkstra/buscador-de-voos/)** Implementação do Algoritmo de Dijkstra para encontrar a melhor rota possível de um ponto a outro utilizando dois pesos diferentes.
 
 ## Como Executar
 Como cada algoritmo é independente, basta navegar até à pasta desejada, compilar os ficheiros `.java` e executar a classe `Main`. Cada projeto possui uma interface gráfica simples (Swing) para interagir com o algoritmo e carregar os dados a partir de ficheiros `.csv`.
